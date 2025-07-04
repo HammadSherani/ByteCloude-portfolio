@@ -4,7 +4,7 @@ import React from 'react'
 function HomePage() {
   return (
     <div>
-      this is home page
+      <h1 className='text-5xl font-bricolage'>This is Heading Featured  </h1>
 
       <button>
         <Link href="/dashboard"> 
