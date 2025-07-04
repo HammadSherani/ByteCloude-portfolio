@@ -4,11 +4,13 @@ import React from 'react'
 function HomePage() {
   return (
     <div>
-      this is home page
+      <h1 className='text-5xl font-bricolage'>
+        This is Heading <span className='text-secondary-600'>Featured</span>
+      </h1>
 
       <button>
-        <Link href="/dashboard"> 
-        Go to Dashboard
+        <Link href="/dashboard">
+          Go to Dashboard
         </Link>
       </button>
     </div>
